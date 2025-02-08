@@ -56,7 +56,7 @@ Ao configurar o ambiente, crie uma pasta dentro do projeto chamada "Models" e ex
 
 * **Sensibilidade do microfone**
         se o seu microfone não possuir um filtro de ruido evite ficar perto de ambientes barulhentos e longe do ventilador, isso certamente vai atrapalhar o reconhecimento da sua voz!
-        pelos meus testes recomendo ajustar a sensibilidade do microfone para 55~70% para isolar o ruido ambiente, claro que isso vai depender de cada microfone, então terá de fazer seus próprios testes!
+        pelos meus testes recomendo ajustar a sensibilidade do microfone para 20~35% para isolar o ruido ambiente, claro que isso vai depender de cada microfone, então terá de fazer seus próprios testes!
     
 
   ## ▶️ Executando a Aplicação
