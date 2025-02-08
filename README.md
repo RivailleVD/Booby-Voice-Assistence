@@ -8,6 +8,8 @@ Este projeto explora as capacidades do Vosk: https://alphacephei.com/vosk/, uma 
 ### 📚 Sobre o Projeto
 O objetivo deste projeto é proporcionar um exemplo prático de integração do Vosk com Python, permitindo o reconhecimento de voz de maneira eficaz e sem a necessidade de conexão com a internet.
 
+você pode conferir a primeira versão do código neste repositório https://github.com/RivailleVD/Boobi-Voice-Assistant
+
 ### ⚙️ Funcionalidades
 * **Reconhecimento de voz offline:** Processamento de áudio completamente local, sem necessidade de internet.
 * **Suporte a múltiplos idiomas:** Fácil adaptação para diferentes línguas e dialetos.
