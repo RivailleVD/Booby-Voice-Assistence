@@ -19,13 +19,15 @@ O objetivo deste projeto é proporcionar um exemplo prático de integração do 
  **git clone https://github.com/RivailleVD/Boobi-Voice-Assistant.git**
 **cd Boobi-Voice-Assistant**
 
+###crie um novo ambiente virtual, instale as dependências necessárias com:
+
+**pip install -r requirements.txt**
+
 ### Ative o ambiente virtual:
 
 **source ambientevirt2/bin/activate**
 
-### Caso queira criar um novo ambiente virtual, instale as dependências necessárias com:
 
-**pip install -r requirements.txt**
 
 ## 🔧 Configurações Importantes
 
@@ -35,37 +37,6 @@ Ao configurar o ambiente, ajuste o caminho para o modelo do Vosk em Recognition/
 
     model = vosk.Model(r'Seu caminho para o modelo de reconhecimento')  # Defina o caminho para o modelo Vosk
 
-* **Caminho para os Arquivos de Áudio:**
-
-No arquivo Bips/Bips.py, você deve definir o caminho correto para os arquivos de áudio salvos em pastas específicas. Por exemplo:
-
-    python
-    Copiar código
-    def Bip_aleatorio():
-        # Inicializa o mixer de som
-        pygame.mixer.init()
-    
-        # Caminho para a pasta de áudios
-        caminho_pasta = "CAMINHO PARA A PASTA COM BIPS CORRESPONDENTES"
-    
-        # Lista os arquivos de áudio da pasta
-        arquivos_audio = [f for f in os.listdir(caminho_pasta) if f.endswith('.mp3')]
-    
-        # Escolhe um arquivo aleatório
-        arquivo_escolhido = choice(arquivos_audio)
-    
-        # Caminho completo para o arquivo de áudio
-        caminho_arquivo = os.path.join(caminho_pasta, arquivo_escolhido)
-    
-        # Carrega e reproduz o áudio
-        pygame.mixer.music.load(caminho_arquivo)
-        pygame.mixer.music.play()
-    
-        # Mantém o programa ativo enquanto o áudio toca
-        while pygame.mixer.music.get_busy():
-            pass
-
-  em "caminho_pasta" defina o caminho correto para os arquivos de audio salvos na pasta "Bips" de acordo com cada função correspondente ao nome da pasta.
 
   * **ID do microfone**
 
