@@ -35,9 +35,7 @@ você pode conferir a primeira versão do código neste repositório https://git
 
 * **Caminho para o Modelo Vosk:**
 
-Ao configurar o ambiente, ajuste o caminho para o modelo do Vosk em Recognition/reconhecimento03.py na linha 14:
-
-    model = vosk.Model(r'Seu caminho para o modelo de reconhecimento')  # Defina o caminho para o modelo Vosk
+Ao configurar o ambiente, crie uma pasta dentro do projeto chamada "Models" e extraia o modelo de reconhecimento do Vosk que você baixou em https://alphacephei.com/vosk/models
 
 
   * **ID do microfone**
