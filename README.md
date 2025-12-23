@@ -1,5 +1,4 @@
-<img width="288" height="288" alt="image" src="https://github.com/user-attachments/assets/a85d5a16-d5be-4818-a5c0-c84949ca5452" />
-Automação Inteligente em Python Controlada por Voz
+###Automação Inteligente em Python Controlada por Voz
 
 https://github.com/user-attachments/assets/b4517126-058c-4880-85d5-e1df971c4132
 
